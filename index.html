@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/generar-cv.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+    <link rel="stylesheet" href="css/dos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="icon" type="image/x-icon" href="multimedia/imagenes/favicon.ico">
+    <title>Mi curriculum</title>
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="header">
+                <div class="hero">
+                    <div class="hero-inner">
+                        <h1>MI CURRICULUM</h1> 
+                        <a href="#foto" class="btn">Mostrar CV</a>
+                    </div>
+                </div>
+            </div>
+        </header> 
+    
+        <section class="cv">
+            <div class="sobre">
+                <button id="boton" class="boton dos" onclick="mostraryocultaruno()"
+                style="font-size: 130%;"><span>SOBRE MI</span></button>
+                <div id="datosuno">
+                    <h2>Datos Personales</h2>
+                    <ul>
+                        <li><b>Nacionalidad: &nbsp; </b> Argentina</li>
+                        <li><b>Fecha de nacimiento:&nbsp; </b> 8-2-1985</li>
+                        <li><b>Lugar de nacimiento:  &nbsp; </b> Gonzalez Catán</li>
+                        <li><b>DNI: &nbsp; </b> 31.394.922</li>
+                    </ul>
+                    <h2>Cualidades</h2>
+                    <ul>
+                        <li>Trabajador</li>
+                        <li>Trabajo en equipo</li>
+                        <li>Responsable</li>
+                        <li>Flexibilidad/adaptabilidad</li>
+                        <li>Habilidades comunicativas</li>
+                        <li>Capacidad para resolver problemas</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="experiencia">
+                <button id="boton" class="boton dos" onclick="mostraryocultardos()"
+                style="font-size: 130%;"><span>EXPERIENCIA</span></button>
+                <div id="datosdos">
+                    <h2>Gerente de contabilidad, 2018 - Actualidad</h2>
+                    <ul>
+                        <li>Hice presupuestos periódicos para prever las exigencias mensuales
+                            de efectivo.
+                        </li>
+                        <li>Redacté informes finacieros y reglamentarios de la ley para incorporar
+                            y abrir oficinas.
+                        </li>
+                        <li>Redacté previsiones de gastos anuales, además de todas las acciones
+                            necesarias para administrar costos conforme al presupuesto.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="habilidades">
+                <button id="boton" class="boton dos" onclick="mostraryocultartres()"
+                style="font-size: 130%;"><span>HABILIDADES</span></button>
+                <div id="datostres">
+                    <h2>Gestor de contabilidad a tiempo completo</h2>
+                    <ul>
+                        <li>Administración de sueldos.
+                        </li>
+                        <li>Contabilidad empresarial.
+                        </li>
+                        <li>Análisis de riesgos, presupuestos y recursos humanos.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="personal">
+                <div class="imagen">
+                    <img src="multimedia/imagenes/juanortizfoto.jpg" id="foto"
+                    alt="Juan Ortiz foto">
+                </div>
+                <div class="datos">
+                    <h1 style="font-size: 300%;">Juan Ortiz</h1>
+                    <h2>Contador</h2>
+                    <span class="material-symbols-outlined">
+                        call
+                        </span>
+                    <h3>642-8825</h3>
+                    <span class="material-symbols-outlined">
+                        mail
+                        </span>
+                    <h3>juan.ortiz@example.com</h3>
+                    <span class="material-symbols-outlined">
+                        location_on
+                        </span>
+                    <h3>Buenos Aires 6800, Gonzalez Catán</h3>    
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="./js/mostrar-ocultar-boton.js"></script>
+</body>
+</html>

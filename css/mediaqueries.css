@@ -1,0 +1,111 @@
+@media screen and (max-width:600px){
+    .hero h1{
+      font-size: 50px;
+    }
+    .cv{
+      width: 300px;
+    }
+    .sobre{
+      width: 300px;
+    }
+    .experiencia{
+      width: 300px;
+    }
+    .habilidades{
+      width: 300px;
+    }
+    .personal{
+      width: 300px;
+  
+    }
+  }
+  
+  @media screen and (min-width:600px){
+    .hero h1{
+      font-size: 50px;
+    }
+    .cv{
+      width: 500px;
+    }
+    .sobre{
+      width: 250px;
+    }
+    .experiencia{
+      width: 250px;
+    }
+    .habilidades{
+      width: 250px;
+    }
+    .personal{
+      width: 230px;
+    }
+    #foto{
+      width: 230px;
+    }
+  }
+  
+  @media screen and (min-width:800px) {
+    .cv{
+      width: 700px;
+    }
+    .sobre{
+      width: 400px;
+    }
+    .experiencia{
+      width: 400px;
+    }
+    .habilidades{
+      width: 400px;
+    }
+    .personal{
+      width: 250px;
+    }
+    #foto{
+      width: 250px;
+    }
+  }
+  
+  @media screen and (min-width:900px) {
+    .cv{
+      width: 850px;
+    }
+    .sobre{
+      width: 500px;
+    }
+    .experiencia{
+      width: 500px;
+    }
+    .habilidades{
+      width: 500px;
+    }
+    .personal{
+      width: 300px;
+    }
+    #foto{
+      width: 300px;
+    }
+  }
+  
+  @media screen and (min-width:1200px) {
+    .hero h1{
+      font-size: 5em;
+    }
+    .cv{
+      width: 1200px;
+    }
+    .sobre{
+      width: 800px;
+    }
+    .experiencia{
+      width: 800px;
+    }
+    .habilidades{
+      width: 800px;
+    }
+    .personal{
+      width: 350px;
+    }
+    #foto{
+      width: 350px;
+    }
+  }

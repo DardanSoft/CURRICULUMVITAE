@@ -1,0 +1,120 @@
+
+.cv {
+    color: rgb(71, 71, 71);
+    font-family: 'Signika Negative', sans-serif;
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 3px;
+    width: 85%;
+    background-color: rgba(255, 255, 255, 0.909);
+    align-items: center;
+  }
+  
+  
+  .personal {
+    border: solid 0px #ffffffcc;
+    padding: 0px;
+    width: 300px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.621);
+    box-sizing: inherit;
+  }
+  
+  #foto {
+    margin: 0px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .datos h1, h2{
+    margin: 1% auto;
+    text-align: center;
+  }
+  
+  .datos h2 {
+    border: solid 0px rgb(255, 255, 255);
+    color: white;
+    padding: 5px;
+    width: 150px;
+    text-align: center;
+    border-radius: 65px;
+    background-color: rgb(84, 197, 253);
+  }
+  
+  .boton{
+    border: none;
+    color: white;
+    width: 170px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 5px;
+    background-color: rgb(0, 180, 216); 
+    position: relative;
+    overflow: hidden;
+  }
+  .boton span{
+    position: relative;
+    z-index: 2;
+    transition: .3s ease all;
+  }
+
+  .datos span, h3{
+    padding: 3%;
+    margin: 1%;
+    size: 100%;
+  }
+  
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL'  0,
+    'wght' 800,
+    'GRAD' 100,
+    'opsz' 48
+  }
+  
+  .sobre {
+    float: right;
+    border: solid 0px #ffffff;
+    padding: 5px;
+    width: 800px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.621);
+    box-sizing: inherit;
+  }
+  
+  .experiencia {
+    float: right;
+    border: solid 0px #ffffff;
+    padding: 5px;
+    width: 800px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.621);
+    box-sizing: inherit;
+  }
+  
+  .habilidades {
+    float: right;
+    border: solid 0px #ffffff;
+    padding: 5px;
+    width: 800px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.621);
+    box-sizing: inherit;
+  }
+
+  #datosuno{
+    display: none;
+  }
+  #datosdos{
+    display: none;
+  }
+  #datostres{
+    display: none;
+  }
